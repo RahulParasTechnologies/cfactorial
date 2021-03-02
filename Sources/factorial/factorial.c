@@ -4,7 +4,6 @@
 #include    <stdlib.h>
 #include    <math.h>
 #include    <string.h>
-#include    <malloc.h>
 #include    <errno.h>
 #include    <memory.h>
 #include    <float.h>
@@ -25,7 +24,7 @@ void Tone_Generator_16bits(
 
 
 /*-------------------------------------------------------------------*/
-int main (short argc, char *argv[] )
+int main (int argc, char *argv[] )
     {
      FILE *f_Rv_Out=NULL;
      int Frequency, Out_length, Volume_dB;
